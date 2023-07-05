@@ -16,7 +16,9 @@ import lombok.Setter;
 
 import java.util.List;
 
-@SuppressWarnings("unused") @Getter @Setter
+@SuppressWarnings("unused") 
+@Getter 
+@Setter
 public abstract class AbstractCommand {
     private ApplicationCommandOptionData[] options = new ApplicationCommandOptionData[0];
     private String name;
