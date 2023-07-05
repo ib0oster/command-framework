@@ -10,11 +10,11 @@ public class TestCommand extends AbstractCommand {
     public TestCommand() {
         setOptions(
             ApplicationCommandOptionData.builder()
-            .name("test-option")
-            .description("An test option.")
-            .type(ApplicationCommandOption.Type.STRING.getValue())
-            .required(true)
-            .build()
+                .name("test-option")
+                .description("An test option.")
+                .type(ApplicationCommandOption.Type.STRING.getValue())
+                .required(true)
+                .build()
         )
     }
 
