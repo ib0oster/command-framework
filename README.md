@@ -1,5 +1,5 @@
 # command-framework
-An lightweight command framework for Discord4J.
+A lightweight command framework for Discord4J.
 
 ## Usage
 
